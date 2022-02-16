@@ -12,13 +12,4 @@
     .konten{
         width: 50%;
     }
-    .konten-txt h2{
-        font-size: 24px;
-    }
-    .konten-txt p{
-        font-size: 16px;
-    }
-    .konten img{
-        width: 30px;
-    }
 }
