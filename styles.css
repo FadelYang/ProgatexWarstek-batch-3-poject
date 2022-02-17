@@ -1,41 +1,53 @@
-/*for tablet*/
-@media all and (max-width: 1000px){
-    .k3{
-        height: auto;
-        font-size: 15px;
-    }
-    .kontens{
-        padding: 2em;
-        height: 600px;
-    }
-    .konten{
-        width: 50%;
-    }
-    .konten-txt{
-        width: 90%;
-    }
-    .konten img{
-        width: 3.5em;
-    }
-    .konten-txt h2{
-        font-size: 2.5em;
-    }
-    .konten-txt p{
-        font-size: 1.3em;
-    }
+
+.k3{
+    height:100%;
+    width: 100%;
+    background-image: url('icon-or-image/andreas-ronningen-S2YssLw97l4-unsplash.jpg');
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 600px;
+    font-size: 16px;
 }
-@media all and(max-width: 670px){
-    .k3{
-        height: auto;
-        
-        
-    }
-    .kontens{
-        padding-left: 1em;
-        padding-top: 1em;
-        padding-right: 1em;
-        font-size: 10px;
-    }
+body{
+    background-color: rgb(173, 159, 140);
+}
+.konten img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 3.5em;
+    border: 3px solid cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.349);
+}
+.konten{
+    float: left;
+    width: 25%;
+
+}
+.kontens{
+    
+    padding-left: 80px;
+    padding-top: 200px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+
+    
+}
+.konten-txt{
+    text-align:left;
+    width: 75%;
+    
+}
+.konten-txt{
+    color: rgb(255, 255, 255);
+}
+.konten-txt h2{
+    font-size: 2em;
+}
+.konten-txt p{
+    font-size: 1em;;
+}
     .konten{
         width: 50%;
         margin: 100px;
